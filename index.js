@@ -29,7 +29,7 @@ else if(index==1) {
 action = ['Offer to fix the bean machine', 'Steal the crown', 'Make him drink the goblin juice', 'Run away']
 index = readlineSync.keyInSelect(action, 'Oh no! The frog king is awake. What will you do?\n\n')
 if(index == 0) {
-    console.log('Wise decision. We have decided to take you in as one of our own. Congratulations 💞');
+    console.log('Wise decision. We have decided to take you in as one of our own. Congratulations!!');
 }
 else if(index == 1) {
     console.log('Frog king steps on you :( ');
